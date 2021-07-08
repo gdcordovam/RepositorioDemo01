@@ -1,0 +1,16 @@
+#pruebas de ignorar
+#Ignorar carpetas
+#imagen - ignorar un carpeta
+#/imagen - ignorar un carpeta
+#imagen/carpeta_limpia/  - ignorar un carpeta dentro de otra carpeta
+#imagen/**  - ignorar el contenido de una carpeta
+
+imagen/carpeta_limpia/
+
+#Ignorar archivos
+#imagen.jpg  - ignorar un archivo especifico
+#imagen/pruebita.jpg - ignorar un archivo especifico dentro de una carpeta
+#*.jpg - ignorar los archivos de una misma extensión
+#imagen/*.jpg - ignorar los archivos de una misma extensión dentro de una carpeta
+
+imagen.jpg
